@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<link rel="stylesheet" href="style2.css">
+<body>
+
+  <title>Services</title>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="subnav">
+      </div>
+    </div> 
+  <div class="navbar">
+      <a href="Aboutus.html">About Us</a>
+      <div class="subnav">
+        </div>
+      </div> 
+      <div class="navbar">
+      <a href="contact.html">contact</a>
+      <div class="subnav">
+        </div>
+      </div> 
+      <div class="navbar">
+      <a href="Gallery.html">Gallary</a>
+      <div class="subnav">
+        </div>
+      </div> 
+      <div class="navbar">
+        <a href="Service.html">Service</a>
+        <div class="subnav">
+          </div>
+        </div> 
+  
+  </body>
+  </html>
+<style>
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2>EXPLORE OUR SERVICES</h2>
+  <p>Click on the boxes below:</p>
+</div>
+
+<!-- Three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:rgb(102, 0, 128);">
+    Box 1
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:rgb(1, 70, 52);">
+    Box 2
+  </div>
+  <div class="column" onclick="openTab('b3');" style="background:rgb(102, 0, 128);">
+    Box 3
+  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:rgb(102, 0, 128)">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Build Equity and Wealth</h2>
+  <p>As you pay down a property mortgage with Real Estate Hub, you build equity—an asset that's part of your net worth. And as you build equity, you have the leverage to buy more properties and increase cash flow and wealth even more.</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:rgb(1, 70, 52)">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Real Estate Investment Trusts (REITs)</h2>
+  <p>If you want to invest in real estate, but aren't ready to make the jump into owning and managing properties, you may want to consider a real estate investment trust (REIT). You can buy and sell publicly-traded REITs on major stock exchanges. Many trade under high volume, meaning you can get into and out of a position quickly. REITs must pay out 90% of income to investors, so they typically offer higher dividends than many stocks.</p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:rgb(102, 0, 128)">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Inspection Services on Behalf of Clients</h2>
+  <p>Some buyers and sellers carry out the inspection process on their own because they do not know that this is their responsibility. Inspection is an essential process that agents ought to go through. Some professional inspectors have the skills of examining possessions. 
+
+    Good agencies offer inspection before they put assets on sale. They take this seriously because they value the welfare of both purchasers and sellers. From the inspection report, they can come up with a pricing decision and determine if the renovation is compulsory. </p>
+</div>
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+</body>
+</html> 

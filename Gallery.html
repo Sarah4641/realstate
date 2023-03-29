@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<link rel="stylesheet" href="style2.css">
+<body>
+
+
+    <html>
+<head>
+<style>
+body {background-color: rgb(255, 251, 251);}
+h1   {color: rgb(128, 6, 107);}
+h2   {color: rgb(128, 6, 107);}
+p    {color: rgb(8, 8, 8);}
+</style>
+
+<title>Gallary</title>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="subnav">
+      </div>
+    </div> 
+
+    <div class="navbar">
+      <a href="Aboutus.html">About Us</a>
+      <div class="subnav">
+        </div>
+      </div> 
+      <div class="navbar">
+      <a href="contact.html">contact</a>
+      <div class="subnav">
+        </div>
+      </div> 
+      <div class="navbar">
+      <a href="Gallery.html">Gallary</a>
+      <div class="subnav">
+        </div>
+      </div> 
+      <div class="navbar">
+        <a href="Service.html">Service</a>
+        <div class="subnav">
+          </div>
+        </div> 
+    
+    </body>
+    </html>
+<style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+    
+    .navbar {
+      overflow: hidden;
+      background-color: #696969; 
+    }
+    
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .subnav {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .subnav .subnavbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .navbar a:hover, .subnav:hover .subnavbtn {
+      background-color: red;
+    }
+    
+    .subnav-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      background-color: red;
+      width: 100%;
+      z-index: 1;
+    }
+    
+    .subnav-content a {
+      float: left;
+      color: white;
+      text-decoration: none;
+    }
+    
+    .subnav-content a:hover {
+      background-color: #eee;
+      color: black;
+    }
+    
+    .subnav:hover .subnav-content {
+      display: block;
+    }
+    </style>
+    </head>
+    <body>
+
+        <html>
+            <head>
+            <style>
+            table {
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            th, td {
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #D6EEEE;
+            }
+
+            body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Slideshow Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="IMAGES/pic221.jpg" alt="Gallery" width="1275" height="500">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="IMAGES/pic224.jpg" alt="Gallery" width="1275" height="500">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="IMAGES/Image 2.jpg" alt="Gallery" width="1275" height="500">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="IMAGES/pic225.jpg" alt="Gallery" width="1275" height="500">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="IMAGES/pic227.jpg" alt="Gallery" width="1275" height="500">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="IMAGES/Image 3.jpg" alt="Gallery" width="1275" height="500">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="IMAGES/pic11.jpg" alt="Gallery" width="200" height="150">
+    </div>
+    <div class="column">
+      <img src="IMAGES/pic29.jpg" alt="Gallery" width="200" height="150">
+    </div>
+    <div class="column">
+      <img src="IMAGES/pic19.jpg" alt="Gallery" width="200" height="150">
+    </div>
+    <div class="column">
+      <img src="IMAGES/Picture18.jpg" alt="Gallery" width="200" height="150">
+    </div>
+    <div class="column">
+      <img src="IMAGES/pic23.jpg" alt="Gallery" width="200" height="150">
+    </div>
+    <div class="column">
+      <img src="IMAGES/pic27.jpg" alt="Gallery" width="200" height="150">
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
+
+
+
+            </style>
+            </head>
+            <body>
+            
+              <h1 id="myHeader">Explore Our Housing Product And Price</h1>
+            <p>In choosing a property you need to know the type of properties you want, The location and the budget which are stated below in the table:</p>
+            
+            <table>
+              <tr>
+              <th>Home Types</th>
+              <th>Location</th>
+              <th>Total Cost</th>
+              </tr>
+              <tr>
+              <td>Beach House</td>
+              <td>California</td>
+              <td>$2,700,000</td>
+              </tr>
+              <tr>
+              <td>Penthouse</td>
+              <td>Luxembourg</td>
+              <td>$3,000,000</td>
+              </tr>
+              <tr>
+              <td>Ranch House</td>
+              <td>Mexico</td>
+              <td>$3,500,000</td>
+              </tr>
+              <tr>
+              <td>Mansion</td>
+              <td>Texas</td>
+              <td>$5,000,000</td>
+              </tr>
+            </table>
+            
+            </div>
+            </body>
+            </html>
+
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+    
+    <div class="footer">
+      <div class="copy">
+          <div class="container">
+              <a href="sarahasuquo465@gmail.com">2023 &copy; ALL RIGHTS RESERVED |DESIGNED BY SARAH </a>
+              <span>
+                  <div class="media-icons">
+                      <a href="https://google.com"class="fab fa-google-plus-g"></a>
+                      <a href="https://twitter.com"class="fab fa-twitter"></a>
+                      <a href="https://instagram.com/realsarahvibes?igshid=YmMyMTA2M2Y="class="fab fa-instagram"></a>
+                      <a href="https://whatsapp.com" class="fab fa-whatsapp"></a>
+                  </div>
+              </span>
+          </div>
+    </footer>
+    </html>
+    </div>
+    
+    </body>
+    </html>
+    
+    
+
+
+        <style>
+            body {
+              font-family: Arial;
+              margin: 0;
+            }
+            
+            * {
+              box-sizing: border-box;
+            }
+            
+            img {
+              vertical-align: middle;
+            }
+            
+            /* Position the image container (needed to position the left and right arrows) */
+            .container {
+              position: relative;
+            }
+            
+            /* Hide the images by default */
+            .mySlides {
+              display: none;
+            }
+            
+            /* Add a pointer when hovering over the thumbnail images */
+            .cursor {
+              cursor: pointer;
+            }
+            
+            /* Next & previous buttons */
+            .prev,
+            .next {
+              cursor: pointer;
+              position: absolute;
+              top: 40%;
+              width: auto;
+              padding: 16px;
+              margin-top: -50px;
+              color: white;
+              font-weight: bold;
+              font-size: 20px;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+              -webkit-user-select: none;
+            }
+            
+            /* Position the "next button" to the right */
+            .next {
+              right: 0;
+              border-radius: 3px 0 0 3px;
+            }
+            
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover,
+            .next:hover {
+              background-color: rgba(0, 0, 0, 0.8);
+            }
+            
+            /* Number text (1/3 etc) */
+            .numbertext {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+            }
+            
+            /* Container for image text */
+            .caption-container {
+              text-align: center;
+              background-color: #222;
+              padding: 2px 16px;
+              color: white;
+            }
+            
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Six columns side by side */
+            .column {
+              float: left;
+              width: 16.66%;
+            }
+            
+            /* Add a transparency effect for thumnbail images */
+            .demo {
+              opacity: 0.6;
+            }
+            
+            .active,
+            .demo:hover {
+              opacity: 1;
+            }
+           
+           
+
+
+  
+           
+

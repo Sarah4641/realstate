@@ -1,31 +1,108 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<link rel="stylesheet" href="style2.css">
+<body>
+
+   <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="subnav">
+      </div>
+    </div> 
+    <div class="navbar">
+      <div class="navbar">
+        <a href="Aboutus.html">About Us</a>
+        <div class="subnav">
+          </div>
+        </div> 
+        <div class="navbar">
+        <a href="contact.html">contact</a>
+        <div class="subnav">
+          </div>
+        </div> 
+        <div class="navbar">
+        <a href="Gallery.html">Gallary</a>
+        <div class="subnav">
+          </div>
+        </div> 
+        <div class="navbar">
+          <a href="Service.html">Service</a>
+          <div class="subnav">
+            </div>
+          </div> 
+    </body>
+    </html>
     <title>CONTACT PAGE</title>
 </head>
 
-<body>
-    <header>
-        <nav>
-            <ul class="menu">
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="Aboutus.html">ABOUT</a></li>
-              <li><a href="contact.html">CONTACT</a></li>
-              <li><a href="Project.html">PROJECT</a></li>
-            </ul>
-        </nav>
-    </header>
-    <style>
-<html>
-<head>
-<style>
 
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
   
-body {background-color: rgb(196, 108, 8);}
-input {color: rgb(123, 42, 182);}
+  .navbar {
+    overflow: hidden;
+    background-color: #730577; 
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(77, 71, 71);
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+
 
 </style>
 </head>
@@ -75,3 +152,4 @@ input {color: rgb(123, 42, 182);}
 
   </body>
   </html>
+

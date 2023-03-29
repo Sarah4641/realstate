@@ -1,132 +1,258 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-  <link rel="stylesheet" href="style.css">
-</head>
-      <title>REAL ESTATE</title>
-    </head>
-  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<link rel="stylesheet" href="style2.css">
+<body>
 
-    <body>
-      <header>
-        <nav>
-          <ul class="menu">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="Aboutus.html">ABOUT</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-            <li><a href="PROJECT.html">PROJECT</a></li>
-          </ul>
-        </nav>
-      </header>
 
-      <h1 id="myHeader">WELCOME TO REAL ESTATE HUB</h1>
-      <p>Find your Desired Home</p> 
-      
-      <!DOCTYPE html>
 <html>
 <head>
 <style>
-body {background-color: rgb(250, 250, 250);}
-h1   {color: rgb(255, 126, 6);}
-h2   {color: rgb(255, 126, 6);}
-p    {color: rgb(102, 35, 146);}
+body {background-color: rgb(119, 50, 50);}
+h1   {color: rgb(27, 23, 27);}
+h2   {color: rgb(128, 6, 107);}
+h3  {color: rgb(128, 6, 107);}
+p    {color: rgb(8, 8, 8);}
 </style>
-</head>
-<body>
-
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <style>
-  #myHeader {
-    background-color: rgb(255, 126, 6);
-    color: black;
-    padding: 40px;
-    text-align: center;
-  } 
+   
   </style>
   </head>
   <body>
 
+  <title>Real Estate</title>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="subnav">
+      </div>
+    </div> 
+  <div class="navbar">
+    <a href="Aboutus.html">About Us</a>
+    <div class="subnav">
+      </div>
+    </div> 
+    <div class="navbar">
+    <a href="contact.html">contact</a>
+    <div class="subnav">
+      </div>
+    </div> 
+    <div class="navbar">
+    <a href="Gallery.html">Gallery</a>
+    <div class="subnav">
+      </div>
+    </div> 
+    <div class="navbar">
+      <a href="Service.html">Service</a>
+      <div class="subnav">
+        </div>
+      </div> 
 
 </body>
 </html>
-
-      
-<p>Property List</p>
-<ul>
-  <li>Real Estate Homes</li>
-  <li>Luxurious mansions</li>
-  <li>Shortlets Apartments</li>
-</ul>
-
-
-<p>The steps to follow before buying a property:</p>
-<ol>
-  <li>Have A Budget</li>
-  <li>Do your research and choose a location </li>
-  <li>Verify those properties by inspecting them</li>
-</ol>
-<h1 id="myHeader">PROPERTY IMAGE</h1>
-<img src="./IMAGES/Image 2.jpg" alt="Real Estate Property">
-<img src="./IMAGES/Image 3.jpg" alt="Real Estate Property">
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
 <style>
-table {
-  border-collapse: collapse;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #696969; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
   width: 100%;
+  z-index: 1;
 }
 
-th, td {
-  text-align: left;
-  padding: 8px;
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
 }
 
-tr:nth-child(even) {
-  background-color: #D6EEEE;
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
 }
 </style>
 </head>
 <body>
 
-  <h1 id="myHeader">TYPE OF REAL ESTATE PROPERTIES</h1>
-<p>In choosing a property you need to know the type of properties you want, The location and the amount which are stated below in the table:</p>
+<div class="header">
+  <h2>Real Estate Hub </h2>
+</div>
 
-<table>
-  <tr>
-  <th>Home Types</th>
-  <th>Location</th>
-  <th>Total Cost</th>
-  </tr>
-  <tr>
-  <td>Beach House</td>
-  <td>California</td>
-  <td>$2,700,000</td>
-  </tr>
-  <tr>
-  <td>Penthouse</td>
-  <td>Luxembourg</td>
-  <td>$3,000,000</td>
-  </tr>
-  <tr>
-  <td>Ranch House</td>
-  <td>Mexico</td>
-  <td>$3,500,000</td>
-  </tr>
-  <tr>
-  <td>Mansion</td>
-  <td>Texas</td>
-  <td>$5,000,000</td>
-  </tr>
-</table>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Welcome To Real Estate Hub</h2>
+      <h5>Let's Sell YOU a HOME not a HOUSE</h5>
+      <img src="IMAGES/Pic 1.jpg" alt="Gallery" width="900" height="350">
+      <p>Here At Real Estate Hub:</p>
+      <p>We pride ourselves on our unwavering commitment to delivering quality housing solutions that will stand the test of time, provide modern facility management services, and meet customers’ needs as their satisfaction is part of our goal. We also render advisory services in real estate investment to investors and potential investors.</p>
+    </div>
+    <div class="card">
+      <h2>High Return Of Investment</h2>
+      <img src="IMAGES/Pic5.jpg" alt="Gallery" width="300" height="250">
+      <img src="IMAGES/pic43.jpg" alt="Gallery" width="300" height="250">
+      <img src="IMAGES/pic 44.jpg" alt="Gallery" width="300" height="250">
+      <p>When You Choose Real Estate Hub</p>
+      <p> We weigh risk tolerance with potential returns and ultimately investment decisions are based on extensive market research and sensitivity analysis. We refer to this process as ‘SIS’ – Smart Investment Solutions.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Customer Base Purpose</h2>
+      <img src="IMAGES/Pic 2.jpg" alt="Gallery" width="250" height="250">
+      <p>We offer solutions in land investment, housing schemes, estate development, and property management.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Product & Services</h3>
+      <img src="IMAGES/Image 3.jpg" alt="Gallery" width="250" height="250">
+      <img src="IMAGES/Image 2.jpg" alt="Gallery" width="250" height="250">
+      <img src="IMAGES/pic41.jpg" alt="Gallery" width="250" height="250">
+    </div>
+    <div class="card">
+      <h3>Follow Us On Our Social Media Handle</h3>
+      <p></p>
+              
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+    <div class="copy">
+        <div class="container">
+            <a href="sarahasuquo465@gmail.com">2023 &copy; ALL RIGHTS RESERVED |DESIGNED BY SARAH </a>
+            <span>
+                <div class="media-icons">
+                    <a href="https://google.com"class="fab fa-google-plus-g"></a>
+                    <a href="https://twitter.com"class="fab fa-twitter"></a>
+                    <a href="https://instagram.com/realsarahvibes?igshid=YmMyMTA2M2Y="class="fab fa-instagram"></a>
+                    <a href="https://whatsapp.com" class="fab fa-whatsapp"></a>
+                </div>
+            </span>
+        </div>
+</footer>
+</html>
+</div>
 
 </body>
 </html>
+
+
