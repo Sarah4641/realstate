@@ -10,109 +10,62 @@
     <html>
 <head>
 <style>
-body {background-color: rgb(255, 251, 251);}
-h1   {color: rgb(128, 6, 107);}
-h2   {color: rgb(128, 6, 107);}
+body {background-color: rgb(250, 246, 246);}
+h1   {color: rgb(128, 71, 6);}
+h2   {color: rgb(128, 71, 6);}
 p    {color: rgb(8, 8, 8);}
 </style>
 
-<title>Gallary</title>
+<title>Gallery</title>
 
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <div class="subnav">
-      </div>
-    </div> 
-
-    <div class="navbar">
-      <a href="Aboutus.html">About Us</a>
-      <div class="subnav">
-        </div>
-      </div> 
-      <div class="navbar">
-      <a href="contact.html">contact</a>
-      <div class="subnav">
-        </div>
-      </div> 
-      <div class="navbar">
-      <a href="Gallery.html">Gallary</a>
-      <div class="subnav">
-        </div>
-      </div> 
-      <div class="navbar">
-        <a href="Service.html">Service</a>
-        <div class="subnav">
-          </div>
-        </div> 
-    
-    </body>
-    </html>
 <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-    }
-    
-    .navbar {
-      overflow: hidden;
-      background-color: #696969; 
-    }
-    
+  * {box-sizing: border-box}
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+  .navbar {
+    width: 100%;
+    background-color:#02352e; 
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: rgb(250, 246, 246);
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; /* Four links of equal widths */
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: #0e0d0d;
+  }
+  
+  .navbar a.active {
+    background-color: #885e02;
+  }
+  
+  @media screen and (max-width: 500px) {
     .navbar a {
-      float: left;
-      font-size: 16px;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    .subnav {
-      float: left;
-      overflow: hidden;
-    }
-    
-    .subnav .subnavbtn {
-      font-size: 16px;  
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-    }
-    
-    .navbar a:hover, .subnav:hover .subnavbtn {
-      background-color: red;
-    }
-    
-    .subnav-content {
-      display: none;
-      position: absolute;
-      left: 0;
-      background-color: red;
-      width: 100%;
-      z-index: 1;
-    }
-    
-    .subnav-content a {
-      float: left;
-      color: white;
-      text-decoration: none;
-    }
-    
-    .subnav-content a:hover {
-      background-color: #eee;
-      color: black;
-    }
-    
-    .subnav:hover .subnav-content {
+      float: none;
       display: block;
+      width: 100%;
+      text-align: left;
     }
-    </style>
-    </head>
-    <body>
+  }
+  </style>
+  <div class="navbar">
+  <strong> <a class="active" href="index.html">HOME</a> <strong>
+    <a href="Aboutus.html">ABOUT US</a> 
+    <a href="Gallery.html">GALLERY</a> 
+    <a href="contact.html">CONTACT</a>
+    <a href="Service.html">SERVICE</a>
+  </div>
+   
+</header>
+  
+
 
         <html>
             <head>
